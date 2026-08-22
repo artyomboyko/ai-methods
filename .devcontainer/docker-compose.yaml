@@ -1,0 +1,20 @@
+name: ai-methods
+
+services:
+  dev-host:
+    hostname: dev-host
+    container_name: dev-host
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    shm_size: 16gb
+    gpus: all
+    volumes:
+      - type: bind
+        source: ..
+        target: /workspace
+    command: sleep infinity
+
+networks:
+  default:
+    name: ai-methods-net
