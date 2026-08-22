@@ -1,7 +1,7 @@
 {
   "name": "AI Methods",
   "dockerComposeFile": "docker-compose.yaml",
-  "service": "devcontainer",
+  "service": "dev-host",
   "workspaceFolder": "/workspace",
 
   "customizations": {
