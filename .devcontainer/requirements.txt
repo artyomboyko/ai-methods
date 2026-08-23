@@ -1,0 +1,7 @@
+transformers==5.14.1
+ipykernel
+ipywidgets
+peft==0.20.0
+plotly
+torchmetrics==1.9.0
+llmcompressor==0.13.0
