@@ -5,3 +5,4 @@ peft==0.20.0
 plotly
 torchmetrics==1.9.0
 llmcompressor==0.13.0
+trl==1.10.0
